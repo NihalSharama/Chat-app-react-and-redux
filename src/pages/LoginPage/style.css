@@ -1,0 +1,76 @@
+.registerContainer {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.registerContainer input {
+  margin: 0px;
+  margin-left: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(212, 229, 252);
+  border-radius: 20px;
+  padding: 10px;
+  width: 40%;
+  height: 25px;
+}
+
+#button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: lightsalmon;
+  transition: background-color 400ms;
+}
+#button:hover {
+  background-color: rgba(245, 144, 104, 0.836);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.loginContainer {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.loginContainer input {
+  margin-bottom: 6rem;
+  margin-left: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(212, 229, 252);
+  border-radius: 20px;
+  padding: 10px;
+  width: 40%;
+  height: 25px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.inputs {
+  margin-top: -5rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+form {
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20%;
+  right: 1rem;
+}
